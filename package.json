@@ -1,0 +1,28 @@
+{
+  "name": "glsl-fog",
+  "description": "Basic fog functions for GLSL: linear, exp and exp2",
+  "version": "0.0.0",
+  "main": "exp2.glsl",
+  "browser": "exp2.glsl",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://github.com/hughsk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/glsl-fog"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/glsl-fog/issues"
+  },
+  "keywords": [
+    "glsl",
+    "fog",
+    "function",
+    "distance",
+    "draw",
+    "fade",
+    "exp2"
+  ]
+}
