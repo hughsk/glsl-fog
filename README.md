@@ -13,8 +13,12 @@ Here's a hypothetical example of linear fog calculated in a vertex shader:
 #define FOG_START 100
 #define FOG_END 500
 
+uniform mat4 projection;
+uniform mat4 view;
+uniform mat4 model;
+
+attribute vec3 position;
 varying float fogAmount;
-uniform vec3 position;
 
 #pragma glslify: fog_linear = require(glsl-fog/linear)
 
