@@ -1,7 +1,7 @@
 {
   "name": "glsl-fog",
   "description": "Basic fog functions for GLSL: linear, exp and exp2",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "exp2.glsl",
   "browser": "exp2.glsl",
   "dependencies": {},
