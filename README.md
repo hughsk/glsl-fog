@@ -43,7 +43,7 @@ varying vec4 vertexColor;
 void main() {
   float fogDistance = gl_FragCoord.z / gl_FragCoord.w;
   float fogAmount = fog_exp2(fogDistance, FOG_DENSITY);
-  const float fogColor = vec4(1.0); // white
+  const vec4 fogColor = vec4(1.0); // white
 
   gl_FragColor = mix(vertexColor, fogColor, fogAmount);
 }
